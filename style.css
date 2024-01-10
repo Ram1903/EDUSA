@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(man.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -282,6 +282,7 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	flex-direction: column;
 }
 #services .service-item {
 	flex-basis: 80%;
@@ -608,6 +609,18 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
+	label {
+		display: block;
+		font:
+		  1rem 'Fira Sans',
+		  sans-serif;
+	  }
+	  
+	  input,
+	  label {
+		margin: 0.4rem 0;
+	  }
+	  
 	/* End Project */
 
 	/* About */
@@ -701,3 +714,6 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+
+/*Discuss page*/
